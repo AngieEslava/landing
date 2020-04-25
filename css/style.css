@@ -1,0 +1,157 @@
+body{
+    background-image: linear-gradient(to bottom right, #012427  , antiquewhite);
+    margin: 0;
+    padding: 0;
+}
+.wrapper {
+    width: 80%;
+    margin: auto;
+    overflow:hidden;
+  }
+.img-fluid{
+    width: 130px;
+    height: 90px;
+    border-radius: 5%;
+    padding: 5px 5px 15px 3px;
+    margin-top: -6px;
+    float: left;
+    align-self: flex-end;
+}
+  header {
+    width: 100%;
+    z-index: 10;
+    height: 90px;
+    background-color: #04646c;
+	background-size: 100%;
+	background-attachment: fixed;
+	position: fixed;
+    overflow: hidden;
+    box-shadow:  0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+  }
+  nav {
+    float: right; 
+    display: flex;
+    justify-content: right;
+  }
+  nav ul {
+    list-style: none;
+    overflow: hidden; 
+  }
+  nav ul li {
+    float: left;
+    font-family:fantasy;
+    font-size: 20px;
+    background: #04646c;
+  }
+  nav ul li a {
+    display: block; 
+    padding: 20px;
+    color:antiquewhite;
+    text-decoration: wavy;
+    
+  }
+  nav ul li a:hover {
+    background: antiquewhite;
+    color: #04646c;
+    border-radius: 5%;
+  }
+ .contenido {
+    padding-top: 0px;
+  } 
+  .imagen{
+    background: url("imagenes/textura3.jpg");
+  }
+  #cont-imagen{
+    display: flex;
+    justify-content: center;
+  }
+  #text-motivacion {
+      background-color: antiquewhite;
+      border-radius: 2%;
+  }
+  #motivacion {
+      display: flex;
+      flex-wrap: nowrap;
+      padding: 60px;
+  }
+  #p-motivacion p{
+      padding: 0px 80px 0px 5px;
+      justify-content: center;
+      text-align: center;
+      font-family: 'Patrick Hand', cursive;
+      font-size: 20px;
+  }
+  h1{
+    font-family: 'Caveat', cursive;
+    font-size: 30px;
+    text-align: center;
+    padding: 0px 80px 0px 5px;
+  }
+  #video{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  #servicios {
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+      text-align: center;
+      padding: 50px;
+      /* background-image: linear-gradient(to bottom right, #04646c  , antiquewhite); */
+  }
+  #article-servicios{
+      padding: 30px;
+      height: 300px;  
+      /* background-image: linear-gradient(to bottom right, #04646c  , antiquewhite);   */
+      background-color: beige;
+      place-content: center;
+      width: 500px;
+      border-color: black;
+      border-radius: 50px;
+  }
+   #article-servicios p{
+    width: 500px;   
+    place-content: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 17px;
+  }
+
+  button  {
+    background:#04646c ;
+    color: antiquewhite;
+    border-radius: 5%;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+  }
+  button a {
+    background:#04646c ;
+    color: antiquewhite;
+    border-radius: 5%;
+    font-family: 'Caveat', cursive;
+    font-size: 20px;
+  }
+  
+  
+  button a:hover{
+    background: antiquewhite;
+    color: #04646c;
+    border-radius: 5%;
+    font-family: 'Caveat', cursive;
+    font-size: 25px;
+    border-color: #04646c;
+    text-shadow: black;
+  }
+
+  footer{
+    text-align: right;
+    font-family: 'Patrick Hand', cursive;
+    color: aliceblue;
+    height: 30px;
+    justify-content: center;
+    background-color: #04646c;
+    padding-right: 100px;
+}
+
+
+
